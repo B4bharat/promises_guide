@@ -13,5 +13,5 @@ request.get('http://httpbin.org/get', (error, response, body) => {
     return
   }
 
-  console.log('Request done. Response status code: %d', response.statusCode);
-})
+  console.log('Request done. Response from callback with status code: %d', response.statusCode);
+});
